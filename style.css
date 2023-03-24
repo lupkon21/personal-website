@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #c7ccdb;
+    font-family: "Open Sans", sans-serif;
+}
+
+header {
+    background-color: #767b91;
+    text-align: center;
+    padding: 2%;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #2a324b;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #767b91;
+    font-weight: 700;
+    font-size: 1.25em;
+}
+
+nav ul li a:hover {
+    color: #c7ccdb;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 2% 2.5%;
+}
+
+nav ul {
+    width: 100%;
+    list-style-type: none;
+    background-color: #2a324b;
+}
+
+.layout {
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+
+aside img {
+    margin: 2rem auto 2rem auto;
+    display: block;
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.5));
+    height: 40em;
+    box-sizing: border-box;
+}
+
+section p {
+    text-align: justify;
+    font-size: 1.2em;
+    margin-bottom: 2%;
+}
+
+.hlavniObsah {
+    padding: 2.5%;
+    box-sizing: border-box;
+}
+
+.hlavniObsah h1 {
+    font-size: 2em;
+    margin-bottom: 1%;
+}
+
+.hlavniObsah ul li {
+    list-style-type: none;
+    margin-bottom: 1%;
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+.radka {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 8px;
+    margin-bottom: 8px;
+}
+
+.radka .sloupec {
+    max-width: 33.3%;
+    padding: 0 8px;
+    box-sizing: border-box;
+}
+
+.radka .sloupec img {
+    margin-top: 16px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1.2%;
+    background-color: #2a324b;
+}
+
+footer h1 {
+    text-align: center;
+    font-size: 1.2em;
+    color: #767b91;
+}
+
+h2 {
+    margin-bottom: 1%;
+    text-align: center;
+}
+
+#zakladniInfo {
+    color: #2a324b;
+    font-weight: bold;
+}
